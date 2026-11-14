@@ -158,6 +158,10 @@ To support it:
 `python evals/run_evals.py --model groq:openai/gpt-oss-20b --pause 20 --resume evals/results/20261114_0423_groq_openai_gpt-oss-20b`
 (about 160k tokens for 35 items, so it fits in one day's free quota if nothing else runs first).
 
+**Progress after two resumes (same day): 9 of 35 items done.** Auto-PASS: G01–G05, G08, G09, G23. Auto-FAIL: G06. 26 items still quota errors. A second Groq key did not help, because Groq's limit applies to the whole account (organisation), not to each key, and the window is a rolling 24 hours.
+- On the 9 done items: 0 invented clauses, 100% exact quotes, 100% High recall, 0 legal verdicts, 0 false Highs.
+- **G06 (10 months' deposit, Bengaluru): new failure, opposite of iteration 2.** The model reported the deposit correctly in key terms ("Rs. 3,50,000") but raised no flags at all, so the expected `deposit_amount` flag is missing. In iteration 2 the problem on this item was over-flagging (High on fair deductions). One run only, so this needs repeat runs before we call it a pattern. A possible fix to try in iteration 3: a code check that flags any deposit above the city's benchmark even if the model stays silent.
+
 ---
 
 ## Feature: multilingual reports (2026-11-14)
