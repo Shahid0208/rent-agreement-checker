@@ -1,0 +1,89 @@
+{
+ "all_cities": {
+  "notes": [
+   "An 11-month term is normal (it avoids compulsory registration under the Registration Act, 1908). Do not flag it.",
+   "Model Tenancy Act, 2021 benchmarks: security deposit up to two months' rent for residential premises; landlord entry only after at least 24 hours' notice; deposit refunded when the landlord takes back possession, after deducting the tenant's dues; rent revision as per the agreement.",
+   "The Model Tenancy Act is a model law that each state may or may not have adopted. Use it as a benchmark only, never as the law."
+  ],
+  "sources": [
+   "Model Tenancy Act, 2021 (Ministry of Housing and Urban Affairs)",
+   "Registration Act, 1908, Section 17"
+  ]
+ },
+ "cities": {
+  "Hyderabad": {
+   "state": "Telangana",
+   "notes": [
+    "Governing law is the Telangana Buildings (Lease, Rent and Eviction) Control Act, 1960.",
+    "Deposits are usually one to three months' rent.",
+    "A one-month-rent painting deduction is common. Check whether it is fixed regardless of the length of stay.",
+    "For gated communities, check who pays maintenance, clubhouse, parking and common-area charges."
+   ],
+   "sources": [
+    "TO VERIFY: official Telangana act text",
+    "TO VERIFY: property-portal guides on Hyderabad rentals"
+   ]
+  },
+  "Bengaluru": {
+   "state": "Karnataka",
+   "notes": [
+    "Deposits of up to ten months' rent are common, though two to three months is becoming common in newer societies. This is well above the Model Tenancy Act benchmark of two months.",
+    "A one-month-rent painting deduction at exit is common. Check whether it is reduced for a short stay.",
+    "Reports of a 2026 Karnataka rent law amendment capping deposits are NOT yet verified. Do not mention them."
+   ],
+   "sources": [
+    "TO VERIFY: news and property-portal reports on Bengaluru deposits"
+   ]
+  },
+  "Mumbai / Pune": {
+   "state": "Maharashtra",
+   "notes": [
+    "Agreements are usually 'leave and licence' agreements, not tenancy agreements.",
+    "Under Section 55 of the Maharashtra Rent Control Act, 1999, agreements must be in writing and registered, and the landlord is responsible for registration. If the agreement does not mention registration, flag it as worth asking about (category 'registration')."
+   ],
+   "sources": [
+    "Maharashtra Rent Control Act, 1999, Section 55"
+   ]
+  },
+  "Chennai": {
+   "state": "Tamil Nadu",
+   "notes": [
+    "Governing law is the Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017.",
+    "Under that Act the security deposit for residential premises defaults to a maximum of three months' rent. For Chennai, compare the deposit with this three-month rule, not only with the Model Tenancy Act's two months: three months or less is in line with the state rule. A larger 'advance' (often called that in Chennai, sometimes up to ten months) is worth negotiating; describe it as above the Act's default, never as illegal.",
+    "Tenancy agreements are to be filed with the Rent Authority. If the agreement does not mention filing with the Rent Authority, flag it as worth asking about (category 'registration'). If it does mention filing, do not flag it; a blank registration number may be a Medium point at most."
+   ],
+   "sources": [
+    "TO VERIFY: Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017 (official text): deposit limit and Rent Authority filing"
+   ]
+  },
+  "Delhi": {
+   "state": "Delhi",
+   "notes": [
+    "Governing law is the Delhi Rent Control Act, 1958. Agreements are usually 11 months on e-stamp paper, which is normal; do not flag it.",
+    "Police verification of tenants is mandatory in Delhi (Delhi Police orders). If the agreement does not mention police verification, flag it as worth asking the landlord whether it has been filed (category 'registration', Medium)."
+   ],
+   "sources": [
+    "TO VERIFY: current Delhi Police order on tenant verification",
+    "TO VERIFY: Delhi Rent Control Act, 1958"
+   ]
+  },
+  "Noida / Ghaziabad / Lucknow (UP)": {
+   "state": "Uttar Pradesh",
+   "notes": [
+    "Governing law is the Uttar Pradesh Regulation of Urban Premises Tenancy Act, 2021.",
+    "Under that Act the security deposit for residential premises may not exceed two months' rent. A deposit above two months' rent is above the state's limit: flag it as High (category 'deposit_amount'), state the limit as a fact, and suggest asking the landlord or the Rent Authority. Never call it illegal.",
+    "Landlord and tenant must jointly inform the Rent Authority of the tenancy within two months. If the agreement does not mention this, flag it (category 'registration'). If it does, do not flag it."
+   ],
+   "sources": [
+    "TO VERIFY: Uttar Pradesh Regulation of Urban Premises Tenancy Act, 2021 (official text): deposit limit and Rent Authority intimation"
+   ]
+  },
+  "Other": {
+   "state": null,
+   "notes": [
+    "No city-specific norms. Use only the all-cities benchmarks and the fairness rules."
+   ],
+   "sources": []
+  }
+ }
+}

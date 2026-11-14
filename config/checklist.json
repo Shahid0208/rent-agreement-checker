@@ -1,0 +1,103 @@
+{
+ "version": "v1",
+ "categories": [
+  {
+   "id": "lock_in",
+   "name": "Lock-in period",
+   "high_if": "Only the tenant is locked in, or leaving early costs the whole deposit or more than one month's rent",
+   "medium_if": "Lock-in applies to both sides but is long, or the early-exit cost is unclear",
+   "missing_if": null
+  },
+  {
+   "id": "deposit_amount",
+   "name": "Security deposit amount",
+   "high_if": "Deposit is above a legal limit stated in the city profile, or far above both the city norm and the Model Tenancy Act benchmark of two months' rent",
+   "medium_if": "Deposit is above the Model Tenancy Act benchmark of two months' rent (or above the state's default stated in the city profile)",
+   "missing_if": "No deposit amount is stated"
+  },
+  {
+   "id": "deposit_deductions",
+   "name": "Deposit deductions",
+   "high_if": "Deductions are at the landlord's discretion ('as the Lessor may deem fit') or have no limit",
+   "medium_if": "Deductions are listed but vague (e.g. 'damages' with no mention of normal wear and tear)",
+   "missing_if": null
+  },
+  {
+   "id": "deposit_refund",
+   "name": "Deposit refund timeline",
+   "high_if": null,
+   "medium_if": "Refund timing is vague",
+   "missing_if": "No date or number of days for refunding the deposit"
+  },
+  {
+   "id": "notice_period",
+   "name": "Notice period",
+   "high_if": "Tenant and landlord have different notice periods, two clauses give different notice periods, or a heavy penalty applies for short notice",
+   "medium_if": "Notice period is long (more than two months)",
+   "missing_if": "No notice period for one or both sides"
+  },
+  {
+   "id": "rent_increase",
+   "name": "Rent increase",
+   "high_if": "Rent can be revised at any time or by any amount",
+   "medium_if": "Increase is stated but the percentage or timing is unclear",
+   "missing_if": "Nothing is said about rent on renewal"
+  },
+  {
+   "id": "maintenance_repairs",
+   "name": "Maintenance and repairs",
+   "high_if": "Tenant pays for all repairs, including structural or major ones",
+   "medium_if": "Split between tenant and landlord is unclear",
+   "missing_if": "Nothing says who pays maintenance or repairs"
+  },
+  {
+   "id": "painting",
+   "name": "Painting and cleaning charges",
+   "high_if": null,
+   "medium_if": "A fixed painting charge (e.g. one month's rent) regardless of how long the tenant stayed, or painting at the tenant's cost with no limit",
+   "missing_if": null
+  },
+  {
+   "id": "landlord_entry",
+   "name": "Landlord entry",
+   "high_if": null,
+   "medium_if": "Landlord or agents can enter without notice, or at any time",
+   "missing_if": null
+  },
+  {
+   "id": "late_fees_penalties",
+   "name": "Late fees and penalties",
+   "high_if": "Penalty with no upper limit that can grow larger than a month's rent",
+   "medium_if": "Daily or large late fee, or no grace period",
+   "missing_if": null
+  },
+  {
+   "id": "annexure_inventory",
+   "name": "Annexures and inventory",
+   "high_if": "An annexure or inventory list is referred to but not attached, and the tenant can be charged against it",
+   "medium_if": "Furnished flat with no inventory list",
+   "missing_if": null
+  },
+  {
+   "id": "registration",
+   "name": "Registration and required filings",
+   "high_if": null,
+   "medium_if": "The city profile says a registration or filing is required (registration, Rent Authority filing, police verification) and the agreement does not mention it",
+   "missing_if": null
+  },
+  {
+   "id": "other",
+   "name": "Other",
+   "high_if": "Any other clause that could cost the tenant significant money or stop them leaving",
+   "medium_if": "Any other one-sided, vague or unusual clause worth asking about",
+   "missing_if": null
+  }
+ ],
+ "fairness_rules": {
+  "one_sided": "A right or duty applies to only one side without a reason",
+  "vague": "Amounts, conditions or timelines are left to one side's discretion",
+  "unlimited": "A charge or increase has no upper limit",
+  "missing": "Something important is not covered",
+  "contradictory": "Two clauses say different things"
+ }
+}

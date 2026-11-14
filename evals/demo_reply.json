@@ -1,0 +1,103 @@
+{
+  "key_terms": {
+    "rent": "Rs 18,000 per month, due by the 5th",
+    "deposit": "Rs 1,00,000, refunded at vacating after deductions the landlord decides",
+    "lock_in": "11 months for the tenant only; leaving early loses the whole deposit",
+    "notice_period": "One month for either party (but see the lock-in)",
+    "rent_increase": "Landlord can revise rent at any time",
+    "maintenance": "Not mentioned (only electricity is covered)",
+    "term": "11 months from 1st December 2026"
+  },
+  "flags": [
+    {
+      "category": "lock_in",
+      "risk": "High",
+      "title": "Leaving early loses your whole deposit",
+      "quotes": [
+        {"clause_ref": "Clause 5", "text": "The Lessee shall not vacate the premises before the expiry of 11 months. If the Lessee vacates earlier, the entire security deposit shall be forfeited."},
+        {"clause_ref": "Clause 4", "text": "Either party may terminate this agreement by giving one month's notice."}
+      ],
+      "explanation": "You must stay the full 11 months. If you leave earlier, you lose the entire Rs 1,00,000 deposit. Clause 4 says either side can end it with one month's notice, which conflicts with this.",
+      "why_it_matters": "A job change or transfer could cost you Rs 1,00,000.",
+      "basis": "contradictory",
+      "question": "Clause 4 and Clause 5 say different things. Can we remove the deposit forfeiture, or replace it with a fixed amount such as one month's rent?"
+    },
+    {
+      "category": "deposit_deductions",
+      "risk": "High",
+      "title": "Landlord decides what to deduct",
+      "quotes": [
+        {"clause_ref": "Clause 3", "text": "The deposit shall be refunded at the time of vacating after deducting such amounts as the Lessor may deem fit."}
+      ],
+      "explanation": "The landlord can deduct any amount from your deposit without a limit or a reason.",
+      "why_it_matters": "You could get back much less of your deposit than you expect.",
+      "basis": "vague",
+      "question": "Can deductions be limited to unpaid rent and damage beyond normal wear and tear, with bills shared?"
+    },
+    {
+      "category": "deposit_amount",
+      "risk": "High",
+      "title": "Deposit is over five months' rent",
+      "quotes": [
+        {"clause_ref": "Clause 3", "text": "The Lessee has paid a security deposit of Rs 1,00,000 (Rupees One Lakh only)."}
+      ],
+      "explanation": "Rs 1,00,000 is more than five months' rent. In Hyderabad deposits are usually one to three months' rent, and the Model Tenancy Act benchmark is two months.",
+      "why_it_matters": "A large amount of your money is tied up, and more is at risk if deductions are disputed.",
+      "basis": "local_norm",
+      "question": "Can the deposit be reduced to two or three months' rent?"
+    },
+    {
+      "category": "rent_increase",
+      "risk": "High",
+      "title": "Rent can go up any time",
+      "quotes": [
+        {"clause_ref": "Clause 6", "text": "The rent may be revised by the Lessor from time to time."}
+      ],
+      "explanation": "The landlord can raise the rent whenever they want, by any amount.",
+      "why_it_matters": "Your monthly cost could rise in the middle of the agreement.",
+      "basis": "unlimited",
+      "question": "Can the increase be a fixed percentage, only at renewal?"
+    },
+    {
+      "category": "late_fees_penalties",
+      "risk": "Medium",
+      "title": "Rs 500 a day late fee, no limit",
+      "quotes": [
+        {"clause_ref": "Clause 9", "text": "Rent paid after the 5th shall attract a penalty of Rs 500 per day of delay."}
+      ],
+      "explanation": "Every day you pay late adds Rs 500. A month's delay would be about Rs 15,000, and there is no maximum.",
+      "why_it_matters": "A short delay, such as a salary delay, can become expensive quickly.",
+      "basis": "unlimited",
+      "question": "Can there be a grace period of a few days and a maximum late fee?"
+    },
+    {
+      "category": "painting",
+      "risk": "Medium",
+      "title": "One month's rent for painting",
+      "quotes": [
+        {"clause_ref": "Clause 7", "text": "At the time of vacating, the Lessee shall pay painting charges equal to one month's rent, irrespective of the period of stay."}
+      ],
+      "explanation": "You pay Rs 18,000 for painting when you leave, even if you stayed only a few months. This is common in Hyderabad, but it is still worth asking about.",
+      "why_it_matters": "It's a fixed charge that doesn't depend on the actual cost or your length of stay.",
+      "basis": "local_norm",
+      "question": "Can painting charges be based on the actual cost, or reduced for a shorter stay?"
+    },
+    {
+      "category": "landlord_entry",
+      "risk": "Medium",
+      "title": "Landlord can visit any time",
+      "quotes": [
+        {"clause_ref": "Clause 8", "text": "The Lessor or his agents may inspect the premises at any time."}
+      ],
+      "explanation": "The landlord or people acting for them can come in without telling you first.",
+      "why_it_matters": "It affects your privacy. The Model Tenancy Act benchmark is 24 hours' notice.",
+      "basis": "mta_benchmark",
+      "question": "Can visits need at least 24 hours' notice, except in emergencies?"
+    }
+  ],
+  "missing": [
+    {"category": "maintenance_repairs", "what": "The agreement doesn't say who pays society maintenance or repairs, so you could be asked to pay for anything.", "question": "Who pays the monthly maintenance charge and repairs, and can that be written into the agreement?"}
+  ],
+  "injection_detected": false,
+  "summary": "Four High flags: the deposit forfeiture lock-in, open-ended deposit deductions, a large deposit, and rent that can rise at any time. Ask about these before signing."
+}

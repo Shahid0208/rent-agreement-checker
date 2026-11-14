@@ -1,0 +1,7 @@
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.pytest_cache/
+evals/results/
+data/opt_in/*.json
+.venv/

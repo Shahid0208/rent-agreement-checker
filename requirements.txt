@@ -1,0 +1,12 @@
+streamlit>=1.46  # needs st.button(width="stretch")
+google-genai>=1.30  # Gemini (default model)
+anthropic>=0.40     # Claude (optional comparison)
+pymupdf>=1.24
+pydantic>=2.6
+python-docx>=1.1   # Word .docx uploads
+rapidocr>=3.0      # on-device OCR for photos and scanned PDFs
+onnxruntime>=1.20  # runs the OCR models
+# Groq checker + LLM judge in evals
+openai>=1.40        # Groq (OpenAI-compatible API)
+# Optional: better name detection (heavier install, needs a spaCy model)
+# presidio-analyzer>=2.2
